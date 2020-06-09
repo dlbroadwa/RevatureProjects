@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: company.web.JsonTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.057 s <<< FAILURE! - in company.web.JsonTest
+testParse(company.web.JsonTest)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NoSuchMethodError: company.web.Json.parse(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;
+	at company.web.JsonTest.testParse(JsonTest.java:25)
+
+testToString(company.web.JsonTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: company.web.Json.toJson(Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/JsonNode;
+	at company.web.JsonTest.testToString(JsonTest.java:33)
+
+testFromJson(company.web.JsonTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: company.web.Json.parse(Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonNode;
+	at company.web.JsonTest.testFromJson(JsonTest.java:41)
+
+testToJson(company.web.JsonTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoSuchMethodError: company.web.Json.toJson(Ljava/lang/Object;)Lcom/fasterxml/jackson/databind/JsonNode;
+	at company.web.JsonTest.testToJson(JsonTest.java:18)
+

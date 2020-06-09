@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Postgres" uuid="a5342ace-9ca0-4bb8-8f1f-1ec136dad3d6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>&quot;jdbc:postgresql://project0nathan.crq2hafydb4f.us-east-2.rds.amazonaws.com:5432/postgres&quot;,                 &quot;nathan&quot;, &quot;nathannguyen&quot;</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://project0nathan.crq2hafydb4f.us-east-2.rds.amazonaws.com:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="InventoryDB" uuid="c9d06485-c896-4d05-9d3c-5a08f9646631">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>jdbc:postgresql://dlbroadwa.cpbqys5iu3x8.us-east-2.rds.amazonaws.com:5432/postgres&quot;,                 &quot;postgres&quot;,&quot;Espadapooh4&quot;,&quot;inventoryapp&quot;</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://dlbroadwa.cpbqys5iu3x8.us-east-2.rds.amazonaws.com:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Project2DB" uuid="2c31f75d-d4de-457d-8378-f345ee912393">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://dlbroadwadb.cpbqys5iu3x8.us-east-2.rds.amazonaws.com:5432/postgres</jdbc-url>
+    </data-source>
+  </component>
+</project>

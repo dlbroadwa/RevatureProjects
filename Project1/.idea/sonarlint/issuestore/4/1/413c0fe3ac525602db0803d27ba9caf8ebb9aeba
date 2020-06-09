@@ -1,0 +1,9 @@
+
+G
+java:S1481",Remove this unused "connect" local variable.(â¬²Þÿÿÿÿÿ
+V
+java:S1854";Remove this useless assignment to local variable "connect".(â¬²Þÿÿÿÿÿ
+„
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Á¯¦þ
+F
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ

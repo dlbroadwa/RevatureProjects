@@ -1,0 +1,22 @@
+
+G
+java:S1481",Remove this unused "connect" local variable.(â¬²Þÿÿÿÿÿ
+V	java:S125&"<This block of commented-out lines of code should be removed.(¯æ®¼ÿÿÿÿÿ
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(à¯ôüÿÿÿÿ
+P
+java:S1161":Add the "@Override" annotation above this method signature(§œ×ä
+q
+java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(à¯ôüÿÿÿÿ
+G
+java:S1128"2Remove this unused import 'javax.xml.ws.WebFault'.(ÃãÿS
+n
+java:S1989#"SHandle the following exception that could be thrown by "sendRedirect": IOException.(¤ªöÙúÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(´È®‚ýÿÿÿÿ
+k
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(í˜¿ÿÿÿÿÿ
+n
+java:S1989""SHandle the following exception that could be thrown by "sendRedirect": IOException.(åœ§êøÿÿÿÿ
+R
+java:S1128"<Remove this unused import 'company.screens.InventoryScreen'.(¸Ä Ë
