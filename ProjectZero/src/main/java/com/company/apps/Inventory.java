@@ -30,7 +30,7 @@ public class Inventory {
 
         try {
             statement = connection.createStatement();
-            ResultSet rs = statement.executeQuery("select * from inventoryapp.pockets");
+            ResultSet rs = statement.executeQuery("select * from inventoryapp.pocket");
 
             while (rs.next()) {
                 balance=rs.getBigDecimal(2);

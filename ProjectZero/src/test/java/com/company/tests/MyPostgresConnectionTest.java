@@ -20,7 +20,7 @@ public class MyPostgresConnectionTest {
     @Mock private Statement mockStatement;
     @Before
     public void init(){
-        MockitoAnnotations.initMocks(this);
+        //MockitoAnnotations.initMocks(this);
     }
 
     @Test //mock the Data base connection

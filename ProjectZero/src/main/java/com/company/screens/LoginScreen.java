@@ -36,7 +36,7 @@ public class LoginScreen implements Screens{
                         password = scan.next();
                         statement = connection.createStatement();
 
-                        resultSet = statement.executeQuery("select * from inventoryapp.users");
+                        resultSet = statement.executeQuery("select * from inventoryapp.user");
 
                         while (resultSet.next()) {
                               if (resultSet.getString(2).equals(username) &&

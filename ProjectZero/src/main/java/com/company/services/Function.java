@@ -6,7 +6,6 @@ import com.company.apps.InventoryManagementApp;
 import com.company.apps.Item;
 import com.company.connections.MyPostgresConnection;
 import com.company.screens.InventoryScreen;
-import javafx.stage.Screen;
 
 import java.math.BigDecimal;
 import java.sql.Connection;

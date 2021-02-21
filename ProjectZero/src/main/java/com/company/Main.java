@@ -20,8 +20,8 @@ public class Main {
     public static void main(String[] args) {
         //database connection used to link to the AWS DB
         MyConnection connect = new MyPostgresConnection(
-                "jdbc:postgresql://dlbroadwadb.cpbqys5iu3x8.us-east-2.rds.amazonaws.com:5432/postgres",
-                "postgres","enter123","inventoryapp");
+                "jdbc:postgresql://localhost:5432/postgres",
+                "postgres","1234","inventoryapp");
 
     }
 }

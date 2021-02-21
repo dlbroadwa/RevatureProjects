@@ -4,7 +4,6 @@ import com.company.services.Function;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import static org.mockito.Matchers.isA;
 import static org.mockito.Mockito.*;
 
 public class FunctionTest {
